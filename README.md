@@ -77,7 +77,9 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+
+* **Config** - *Practicar la configuracion del proyecto* -[v0.0.1](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.1)
 
 ## Autores ✒️
 
