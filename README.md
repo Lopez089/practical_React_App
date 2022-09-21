@@ -6,58 +6,38 @@ Pracitca react app es una app que se usara para pracicticar los diferenteres med
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
-
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Para instalar el proyecto en tu local_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_Instalar la dependencias del proyecto_
 
 ```
-hasta finalizar
+npm i
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Para ver el proyecto en el proyecto en el brouser_
+
+```
+npm run dev
+```
+
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Para ejecutar las pruebas del proyecto _
 
 ```
-Da un ejemplo
+npm run test
 ```
 
 ### Y las pruebas de estilo de codificación ⌨️
 
-_Explica que verifican estas pruebas y por qué_
+_Para ver que tu codigo tien el formato correcot_
 
 ```
-Da un ejemplo
+npm run eslint
 ```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
@@ -67,14 +47,8 @@ _La herramientas usadas para crear este proyecto_
 * [npm](https://www.npmjs.com/) - Manejador de dependencias
 * [standard](https://github.com/standard/standard) - eslinter
 * [vitest](https://vitest.dev/) - test 
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+* [testing Library](https://testing-library.com/) - biblioteca de pruebas para react
+* [React router](https://reactrouter.com/) - rutas
 
 ## Versionado 📌
 
@@ -82,6 +56,7 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 
 * **Config** - *Practicar la configuracion del proyecto* -[v0.0.1](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.1)
 * **Rutas** - *Practicar las rutas de una interface de usuario* -[v0.0.2](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.2)
+* **Test Rutas** - *Practicar las rutas de una interface de usuario* -[v0.0.2](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.2)
 
 ## Autores ✒️
 

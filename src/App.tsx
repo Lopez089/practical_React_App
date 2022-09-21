@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
+import { RoutesProvider } from './router/router'
 
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
-        <div className="App">
-            Practical react app
-        </div>
+    <div className="App">
+      <RoutesProvider />
+    </div >
   )
 }
 
