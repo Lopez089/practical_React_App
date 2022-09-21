@@ -8,7 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "eslint": "eslint src/**.tsx src/**/**.tsx src/**.ts src/**/**.ts",
-    "eslint:fix": "eslint src/**.tsx src/**/**.tsx src/**.ts src/**/**.ts --fix"
+    "eslint:fix": "eslint src/**.tsx src/**/**.tsx src/**.ts src/**/**.ts --fix",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -20,6 +22,7 @@
     "@typescript-eslint/eslint-plugin": "5.38.0",
     "@typescript-eslint/parser": "5.38.0",
     "@vitejs/plugin-react": "2.1.0",
+    "@vitest/coverage-c8": "^0.23.4",
     "eslint": "8.23.1",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.26.0",
@@ -27,6 +30,7 @@
     "eslint-plugin-promise": "6.0.1",
     "eslint-plugin-react": "7.31.8",
     "typescript": "4.6.4",
-    "vite": "3.1.0"
+    "vite": "3.1.0",
+    "vitest": "^0.23.4"
   }
 }

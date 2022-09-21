@@ -66,6 +66,7 @@ _La herramientas usadas para crear este proyecto_
 * [vitejs](https://vitejs.dev/) - El framework web usado
 * [npm](https://www.npmjs.com/) - Manejador de dependencias
 * [standard](https://github.com/standard/standard) - eslinter
+* [vitest](https://vitest.dev/) - test 
 
 ## Contribuyendo 🖇️
 
