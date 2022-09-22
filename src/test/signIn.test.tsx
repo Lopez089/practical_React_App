@@ -12,7 +12,7 @@ describe('page signIn', () => {
     screen.getByRole('nav')
   })
 
-  it.todo('should render to main', () => {
+  it('should render to main', () => {
     screen.getByRole('main')
   })
 })
