@@ -39,17 +39,7 @@ describe('routers', () => {
     screen.getByText('home')
   })
 
-  it('shold go patch login to go page login', () => {
-    render(
-      <MemoryRouter initialEntries={['/login']}>
-        <App />
-      </MemoryRouter>
-    )
-
-    screen.getByText('Login')
-  })
-
-  it('shold go patch signIn to go page signIn', () => {
+  it('shold go patch SignIn to go page SignIn', () => {
     render(
       <MemoryRouter initialEntries={['/signIn']}>
         <App />
@@ -57,5 +47,15 @@ describe('routers', () => {
     )
 
     screen.getByText('SignIn')
+  })
+
+  it('shold go patch signUp to go page signUp', () => {
+    render(
+      <MemoryRouter initialEntries={['/signUp']}>
+        <App />
+      </MemoryRouter>
+    )
+
+    screen.getByText('SignUp')
   })
 })
