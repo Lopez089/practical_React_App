@@ -1,8 +1,5 @@
 import React from 'react'
-
-interface main {
-  children: React.ReactElement
-}
+import { main } from '../../interface/index'
 
 export const Main: React.FC<main> = ({ children }) => {
   return (
