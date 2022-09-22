@@ -49,6 +49,7 @@ _La herramientas usadas para crear este proyecto_
 * [vitest](https://vitest.dev/) - test 
 * [testing Library](https://testing-library.com/) - biblioteca de pruebas para react
 * [React router](https://reactrouter.com/) - rutas
+* [Chakra ui](https://chakra-ui.com/) - Libreria de componente ui
 
 ## Versionado 📌
 
@@ -57,7 +58,7 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 * **Config** - *Practicar la configuracion del proyecto* -[v0.0.1](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.1)
 * **Rutas** - *Practicar las rutas de una interface de usuario* -[v0.0.2](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.2)
 * **Test Rutas** - *Practicar las rutas de una interface de usuario* -[v0.0.2](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.2)
-
+* **Implementar UI** - *Practicar la implementacion de una UI* -[v0.0.3](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.3)
 ## Autores ✒️
 
 * **Juan López** - *Trabajo Inicial* - [JuanLópez](https://juan-lopez-87.firebaseapp.com/)
