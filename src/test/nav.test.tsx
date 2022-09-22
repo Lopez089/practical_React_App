@@ -6,6 +6,6 @@ import { Nav } from '../components/index'
 describe('component nav', () => {
   it('should render to logo', () => {
     render(<Nav />)
-    screen.getByRole('logo')
+    screen.getByAltText('logo')
   })
 })
