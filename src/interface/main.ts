@@ -1,4 +1,4 @@
 import React from 'react'
 export interface main {
-    children: React.ReactElement[]
+    children: React.ReactElement[] | React.ReactElement
 }

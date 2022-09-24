@@ -1,18 +1,66 @@
 import React from 'react'
 import { Nav, Main, FormSingIn } from '../../components/index'
 import imgHead from '../../assets/imgHead.png'
+import { Box, Image, Flex, Text } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
+
+interface layoutAuth {
+  children: React.ReactNode[]
+  img: React.ReactElement
+}
+
+export const LayoutAuth = ({ children, img }: layoutAuth) => {
+  return (
+    <Box
+      display='grid'
+      gridTemplateColumns='1fr 1fr'
+      h='100%'
+    >
+      <Flex
+        justifyContent='center'
+        flexDirection='column'
+      >
+        {children}
+      </Flex>
+      <Flex
+        justifyContent='center'
+        alignItems='center'
+      >
+        {img}
+      </Flex>
+    </Box>
+  )
+}
+
 export const SignIn = () => {
   return (
-    <>
+    <Box
+      h='100vh'
+    >
       <Nav />
       <Main>
-        <p>SignIn</p>
-        <p>WELCOME BACK!</p>
-        <p>Don´t have a account.</p>
-        <a href="/signUp">Sign up</a>
-        <FormSingIn />
-        <img src={imgHead} alt="imgHead" />
+        <LayoutAuth
+          img={<Image src={imgHead} alt="imgHead" />}
+        >
+          <Text color='gray.600' fontSize='2xl'>WELCOME BACK!</Text>
+          <Flex>
+            <Text
+              fontSize='sm'
+              color='gray.600'
+            >
+              Don´t have a account.
+            </Text>
+            <Text fontSize='sm' color='#FD8369'>
+              <Link
+                to="/signUp"
+              >
+                &nbsp; Sign up
+              </Link>
+            </Text>
+          </Flex>
+          <FormSingIn />
+        </LayoutAuth>
       </Main>
-    </>
+    </Box>
   )
 }

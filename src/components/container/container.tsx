@@ -7,6 +7,7 @@ export const Container = ({ children }: container) => {
     <Box
       display='grid'
       gridTemplateColumns='1fr 960px 1fr'
+      h='100%'
     >
       <Box
         gridArea='1/2'
