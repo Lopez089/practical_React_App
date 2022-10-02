@@ -42,7 +42,7 @@ export const SignIn = () => {
         <LayoutAuth
           img={<Image src={imgHead} alt="imgHead" />}
         >
-          <Text color='gray.600' fontSize='2xl'>WELCOME BACK!</Text>
+          <Text color='gray.600' fontSize='3xl'>WELCOME BACK!</Text>
           <Flex>
             <Text
               fontSize='sm'
