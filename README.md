@@ -59,6 +59,9 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 * **Rutas** - *Practicar las rutas de una interface de usuario* -[v0.0.2](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.2)
 * **Test Rutas** - *Practicar las rutas de una interface de usuario* -[v0.0.2](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.2)
 * **Implementar UI** - *Practicar la implementacion de una UI* -[v0.0.3](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.3)
+
+* **Implementar un estado global** - *Practicar la creacion de un estado globla de la app con la libreria de desees* -[v0.0.4](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.3)
+
 ## Autores ✒️
 
 * **Juan López** - *Trabajo Inicial* - [JuanLópez](https://juan-lopez-87.firebaseapp.com/)
