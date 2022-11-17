@@ -4,8 +4,10 @@ import { render, screen } from '@testing-library/react'
 import { SignIn } from '../pages/index'
 import { MemoryRouter } from 'react-router-dom'
 import { FormSingIn } from '../components/index'
-import { userEvents } from '@testing-library/user-event'
+import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
+
+const handleSingIn = vi.fn(() => 'a')
 
 describe.skip('page signIn', () => {
   beforeEach(() => {
@@ -48,41 +50,34 @@ describe('compoent main page signIn', () => {
 })
 
 describe('form signIn', () => {
+  beforeEach(() => {
+    render(<FormSingIn handleSingIn={handleSingIn} />)
+  })
   it('should to labe username', () => {
-    render(<FormSingIn />)
     screen.getByLabelText('Username')
   })
 
   it('should to placeolder daniel123@gmail.com', () => {
-    render(<FormSingIn />)
     screen.getByPlaceholderText('daniel123@gmail.com')
   })
 
   it('should to labe Password', () => {
-    render(<FormSingIn />)
     screen.getByLabelText('Password')
   })
 
   it('should to placeolder password', () => {
-    render(<FormSingIn />)
     screen.getByPlaceholderText('password')
   })
 
-  it.skip('Should click user to button signIn run function signIn', () => {
-    const handleSingIn = vi.fn()
-
-    // render(<FormSingIn submit={handleSingIn} />)
-
-    const user = userEvents.setup()
+  it('Should click user to button signIn run function signIn', () => {
+    const user = userEvent.setup()
     const element = screen.getByText('SignIn')
     user.click(element)
 
-    expect(handleSingIn).toBeCalled()
+    expect(handleSingIn).toHaveBeenCalledTimes(1)
   })
 
   it('should show text or continue with', () => {
-    render(<FormSingIn />)
-
     screen.getByText('or continue with')
   })
 

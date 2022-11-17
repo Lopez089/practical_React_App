@@ -32,6 +32,12 @@ export const LayoutAuth = ({ children, img }: layoutAuth) => {
   )
 }
 
+const handleSignIn = () => {
+  console.log('a')
+
+  return 'asf'
+}
+
 export const SignIn = () => {
   return (
     <Box
@@ -58,7 +64,7 @@ export const SignIn = () => {
               </Link>
             </Text>
           </Flex>
-          <FormSingIn />
+          <FormSingIn handleSingIn={handleSignIn} />
         </LayoutAuth>
       </Main>
     </Box>

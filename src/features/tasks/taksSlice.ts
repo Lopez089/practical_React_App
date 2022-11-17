@@ -1,8 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { stateInitial } from '../../constant/index'
 
 export const taskSlice = createSlice({
   name: 'task',
-  initialState: [1, 2],
+  initialState: stateInitial,
   reducers: {
 
   }
