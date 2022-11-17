@@ -50,6 +50,7 @@ _La herramientas usadas para crear este proyecto_
 * [testing Library](https://testing-library.com/) - biblioteca de pruebas para react
 * [React router](https://reactrouter.com/) - rutas
 * [Chakra ui](https://chakra-ui.com/) - Libreria de componente ui
+* [server Json](https://github.com/typicode/json-server) - crear un servidor local
 
 ## Versionado 📌
 
@@ -62,9 +63,6 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 * **Implementar un estado global** - *Practicar la creacion de un estado globla de la app con la libreria de desees* -[v0.0.4](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.3)
 * **Implementar un server local para usar hacer fetch* -[v0.0.5](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.5)
 
-
-
-https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.5
 
 ## Autores ✒️
 
