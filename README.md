@@ -62,6 +62,7 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 * **Implementar UI** - *Practicar la implementacion de una UI* -[v0.0.3](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.3)
 * **Implementar un estado global** - *Practicar la creacion de un estado globla de la app con la libreria de desees* -[v0.0.4](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.3)
 * **Implementar un server local para usar hacer fetch* -[v0.0.5](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.5)
+* **Implementar create acction to state global * -[v0.0.5](https://github.com/Lopez089/practical_React_App/releases/tag/v0.0.6)
 
 
 ## Autores ✒️
