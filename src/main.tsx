@@ -8,12 +8,10 @@ import { store } from './app/store'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
-    <React.StrictMode>
-      <ChakraProvider>
-        <Provider store={store}>
-          <App />
-        </Provider>
-      </ChakraProvider>
-    </React.StrictMode>
+    <ChakraProvider>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </ChakraProvider>
   </BrowserRouter >
 )
