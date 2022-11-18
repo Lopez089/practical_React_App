@@ -10,7 +10,8 @@
     "eslint": "eslint src/**.tsx  src/**.ts src/**/**.ts src/**/**.tsx src/**/**/**.ts src/**/**/**.tsx",
     "eslint:fix": "eslint src/**.tsx  src/**.ts src/**/**.ts src/**/**.tsx src/**/**/**.ts src/**/**/**.tsx --fix",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "server": "json-server --watch server/db.json"
   },
   "dependencies": {
     "@chakra-ui/react": "2.3.4",

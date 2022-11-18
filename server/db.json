@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "id": 234234,
+            "task": "hacer de comer",
+            "folder": "hogar",
+            "idDone": false
+        },
+        {
+            "id": 234235,
+            "task": "enviar informe",
+            "folder": "hogar",
+            "idDone": false
+        },
+        {
+            "id": 234236,
+            "task": "cambiar tonel",
+            "folder": "trabajo",
+            "idDone": true
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
